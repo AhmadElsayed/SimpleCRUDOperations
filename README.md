@@ -3,6 +3,11 @@ A simple application to Add, Update, and Delete data from a many to many related
 
 ## The sample description
 
+![Management screen for students](/TaskResolution/images/HomePage.png)
+
+For the many to many subject records, it can be selected from the drop down and added using the plus button to the div container below it
+
+![Edit student](/TaskResolution/images/EditStudent.png)
 
 
 ## Code Structure
@@ -25,7 +30,7 @@ The two tables structures are as follows
 
 The complete implementation can be found on the Student & Subject files with the context configuration for the Code First entities
 
-![Entities](https://resources20181224092608.azurewebsites.net/images/entities.png)
+![Entities](/TaskResolution/images/entities.png)
 
 ### Web APIs
 The default API controllers for the both entities are created by default based on the created entities with some edits specifically for including Subjects list with student and referring the existing subjects while adding or editing students entity. Controllers are added to the Controllers folders side by side with the existing controller "HomeController".
@@ -33,9 +38,9 @@ The default API controllers for the both entities are created by default based o
 ### Client Side Code
 Primarily two files created, one of them can be considered a Utility class for the Student independent of any other components which is Student. The other one is the AngularJS Home controller for the SPA.
 
-![Entities](https://resources20181224092608.azurewebsites.net/images/angular.png)
+![JS files](/TaskResolution/images/Angular.png)
 
-![Entities](https://resources20181224092608.azurewebsites.net/images/student.png)
+![Student Js file](/TaskResolution/images/student.png)
 
-![Entities](https://resources20181224092608.azurewebsites.net/images/AngularController.png)
+![Angular Controller](/TaskResolution/images/AngularController.png)
 
