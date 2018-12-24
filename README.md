@@ -30,7 +30,7 @@ The two tables structures are as follows
 
 The complete implementation can be found on the Student & Subject files with the context configuration for the Code First entities
 
-![Entities](/TaskResolution/images/entities.png)
+![Entities](/TaskResolution/images/Entities.png)
 
 ### Web APIs
 The default API controllers for the both entities are created by default based on the created entities with some edits specifically for including Subjects list with student and referring the existing subjects while adding or editing students entity. Controllers are added to the Controllers folders side by side with the existing controller "HomeController".
